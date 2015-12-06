@@ -27,6 +27,6 @@ def fatorPrimos(x)
   end
   return array_primos
 end
-
+tempo = Time.now
 puts "Resposta: #{fatorPrimos(600851475143)[-1]}"
-
+puts "O tempo de solução foi:#{Time.now - tempo} milisegundos"
